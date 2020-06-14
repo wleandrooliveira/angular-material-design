@@ -8,8 +8,11 @@ import { MessageNewComponent } from './message-new/message-new.component';
 
 // Material
 
+// Material
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatStepperModule } from '@angular/material/stepper';
 
@@ -21,8 +24,10 @@ import { MatStepperModule } from '@angular/material/stepper';
     ReactiveFormsModule,
 
     // Material
+    MatAutocompleteModule,
     MatButtonModule,
     MatFormFieldModule,
+    MatIconModule,
     MatInputModule,
     MatStepperModule
 
