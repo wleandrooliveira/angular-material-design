@@ -7,14 +7,13 @@ import { MessagesListComponent } from './messages-list/messages-list.component';
 import { MessageNewComponent } from './message-new/message-new.component';
 
 // Material
-
-// Material
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatStepperModule } from '@angular/material/stepper';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   imports: [
@@ -29,7 +28,8 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatFormFieldModule,
     MatIconModule,
     MatInputModule,
-    MatStepperModule
+    MatStepperModule,
+    MatTooltipModule
 
   ],
   declarations: [MessagesListComponent, MessageNewComponent]
